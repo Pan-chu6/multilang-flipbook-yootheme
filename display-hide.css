@@ -1,0 +1,30 @@
+/* Hide all flipbook elements by default */
+.flipbook-en, 
+.flipbook-el, 
+.flipbook-pt, 
+.flipbook-it, 
+.flipbook-de {
+    display: none !important;
+}
+
+/* Show only the corresponding flipbook based on the body class */
+html:lang(en) .flipbook-en { 
+    display: block !important; 
+}
+
+html:lang(el) .flipbook-el { 
+    display: block !important; 
+}
+
+html:lang(pt) .flipbook-pt { 
+    display: block !important; 
+}
+
+html:lang(it) .flipbook-it { 
+    display: block !important; 
+}
+
+html:lang(de) .flipbook-de { 
+    display: block !important; 
+}
+/*end*/
